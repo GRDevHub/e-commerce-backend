@@ -1,0 +1,11 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "Creación de BackEnd para un e-commerce donde se registraran productos  y usuarios para poder comercializar y unir con la parte FrontEnd",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev"
+  },
+  "author": "Gabriel Riveros",
+  "license": "ISC"
+}
