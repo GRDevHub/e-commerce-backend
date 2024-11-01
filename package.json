@@ -4,11 +4,14 @@
   "description": "Creación de BackEnd para un e-commerce donde se registraran productos  y usuarios para poder comercializar y unir con la parte FrontEnd",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "Gabriel Riveros",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "e-commerce": "file:",
     "express": "^4.21.1",

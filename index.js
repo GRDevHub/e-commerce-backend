@@ -22,16 +22,16 @@ const connectDB = async () => {
         await mongoose.connect(`mongodb+srv://${dbUser}:${dbPass}@${dbHost}/`);
 
         app.listen(port, () => {
-            console.log('***********************************')
-            console.log('**************** API **************')
-            console.log('***********************************')
+            console.log('****************************************')
+            console.log('**************** API REST **************')
+            console.log('****************************************')
             console.log(`http://${ipServer}:${port}/api/${apiVersion}`);
         })
         // Mensaje de conexión exitosa
         console.log('La conexión a la base de datos ha sido satisfactoria');
 
     } catch (error) {
-        console.log(`Error al conectar a la base de datos ${error.message}`)
+        console.log(`Error al conectar a la base de datos ${error.message}`);
     }
 };
 
